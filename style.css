@@ -7,6 +7,8 @@
   line-height : 21px;
   text-align : left;
   margin-top: 5px;
+  background-color: #646462;
+  opacity: 5%;
 }
 
 .niveau1:hover .niveau2{
@@ -23,7 +25,7 @@
   list-style-type: none;
 }
 
-li.niveau1 a{
+li.niveau1 a {
   color: #fff;
   text-decoration: none;
   font-family: arial;
@@ -32,11 +34,17 @@ li.niveau1 a:hover{
   color: #fdc400;
 }
 
-ul.niveau2 a{
-  color: #fff;
+ul.niveau2 li a:hover{
+  color: #000 ;
 }
+
+ul.niveau2 li a{
+  display: block;
+  width: 100%;
+}
+
 
 ul li ul li:hover{
   background-color: #fdc400;
-  color: #000000;
+color: #000000 !important;
 }
